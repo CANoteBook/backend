@@ -18,3 +18,6 @@ Create the .env file like the example
 ```sh
 $ npm run start-dev
 ```
+
+.env file
+- PORT : default on 3000
