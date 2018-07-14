@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "src/",
+  "scripts": {
+    "start-dev": "nodemon ./src/bin/www --exec babel-node ./src/bin/www"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/node": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
+    "nodemon": "^1.18.2"
+  },
+  "homepage": "https://github.com/CANoteBook/backend#readme",
+  "bugs": {
+    "url": "https://github.com/CANoteBook/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CANoteBook/backend.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
