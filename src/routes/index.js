@@ -1,8 +1,9 @@
 import express from 'express'
+
 const router = express.Router()
 
 router.get('/', (request, response) => {
-    console.log('/')
+    response.json({ data: 'Hello, World!' }).status(200)
 })
 
 export default router
